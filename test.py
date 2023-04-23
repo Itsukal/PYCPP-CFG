@@ -17,7 +17,7 @@ class NodeKind(Enum):
 # -*- coding: utf-8 -*-
 
 Config.set_library_file('/usr/local/lib/libclang.so');
-file_name = "try_catch.cpp";
+file_name = "test.cpp";
 with open(file_name) as f:
     file_contents = f.read();
 

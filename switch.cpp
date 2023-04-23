@@ -33,6 +33,7 @@ int main()
             case 4:
                 std::cout<<"4"<<std::endl;
                 continue;
+                std::
             case 3:
                 std::cout<<"3"<<std::endl;
                 break;
