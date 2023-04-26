@@ -1,0 +1,2 @@
+termcolor
+django==3.2

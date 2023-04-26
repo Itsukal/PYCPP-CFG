@@ -1,14 +1,29 @@
 #include <iostream>
+#include <exception>
 using namespace std;
+
+struct MyException : public exception
+{
+  const char * what () const throw ()
+  {
+    return "C++ Exception";
+  }
+};
+
 int main()
 {
-    int x=100,y=200,z=300;
-    auto ff = [=,&y,&z](int n){
-        cout<<x<<endl;
-        y++;
-        z++;
-        return n*n;
-    };
-    cout<<ff(15)<<endl;
-    cout<<y<<","<<z<<endl;
+
+   int i;
+   throw exception();
+  try
+  {
+    throw MyException();
+  }
+
+  catch(MyException& e)
+  {
+    std::cout << "MyException caught" << std::endl;
+    std::cout << e.what() << std::endl;
+  }
+
 }

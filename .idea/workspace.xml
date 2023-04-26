@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c93a3f28-e680-412a-a25f-38dfd40e4763" name="Changes" comment="测试一下">
-      <change afterPath="$PROJECT_DIR$/test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="c93a3f28-e680-412a-a25f-38dfd40e4763" name="Changes" comment="增加try_catch，同时优化了跟前端的接口">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CXX_FOR.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CXX_FOR.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clang/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clang/cindex.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clang/enumerations.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/switch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/switch.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/try_catch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/try_catch.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoPYC_CFG/CFG/disposeCFG/switch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/djangoPYC_CFG/CFG/disposeCFG/switch.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +182,8 @@
       <workItem from="1681878527068" duration="1024000" />
       <workItem from="1681879616629" duration="14526000" />
       <workItem from="1681912319590" duration="5728000" />
-      <workItem from="1681967381536" duration="32707000" />
+      <workItem from="1681967381536" duration="41877000" />
+      <workItem from="1682480160219" duration="1086000" />
     </task>
     <task id="LOCAL-00001" summary="测试一下">
       <created>1681197466959</created>
@@ -198,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681197466959</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加try_catch，同时优化了跟前端的接口">
+      <created>1682234359911</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682234359911</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +207,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试一下" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试一下" />
+    <MESSAGE value="增加try_catch，同时优化了跟前端的接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加try_catch，同时优化了跟前端的接口" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -250,7 +252,7 @@
     <SUITE FILE_PATH="coverage/PYC_CFG$main.coverage" NAME="main Coverage Results" MODIFIED="1681556040989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/djangoPYC_CFG/CFG" />
     <SUITE FILE_PATH="coverage/PYC_CFG$parse.coverage" NAME="parse Coverage Results" MODIFIED="1682068464316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/djangoPYC_CFG/CFG/disposeCFG" />
     <SUITE FILE_PATH="coverage/PYC_CFG$views.coverage" NAME="views Coverage Results" MODIFIED="1681885512898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/djangoPYC_CFG/CFG" />
-    <SUITE FILE_PATH="coverage/PYC_CFG$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1682232450079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/djangoPYC_CFG/CFG/disposeCFG" />
+    <SUITE FILE_PATH="coverage/PYC_CFG$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1682481244615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/djangoPYC_CFG/CFG/disposeCFG" />
     <SUITE FILE_PATH="coverage/PYC_CFG$test.coverage" NAME="test Coverage Results" MODIFIED="1681452359086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PYC_CFG$nameClass.coverage" NAME="nameClass Coverage Results" MODIFIED="1681554149445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/djangoPYC_CFG/CFG" />
     <SUITE FILE_PATH="coverage/PYC_CFG$manage.coverage" NAME="manage Coverage Results" MODIFIED="1681872854774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/djangoPYC_CFG" />
